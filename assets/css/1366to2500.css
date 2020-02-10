@@ -1,0 +1,26 @@
+
+
+
+
+  @media all and (max-width: 2500px) and (min-width: 951px) {
+    .presentation {
+      height: 150vh;
+    }
+    .jumbotron {      
+      height: auto;
+      width: auto;
+      background-image: url(../image/akamegakill01.gif);
+      border-radius: 40% 40% 0% 0%;
+      background-position: center;
+      background-size: cover;
+      padding-bottom: 2em;
+    }
+    
+
+  .nuage {
+    
+      height: 50vh;
+  }
+ 
+ 
+}

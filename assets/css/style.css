@@ -1,0 +1,103 @@
+/* **********hero********************** */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  
+}
+
+.btn {
+  text-decoration: none;
+  color: whitesmoke;
+  border-radius: 20% 20%/30%;
+  border: aquamarine solid 1px;
+  padding: 1em 2em 1em 2em;
+  background-color: transparent;
+  font-size: 1.5vw;
+  position: relative;
+  
+ 
+  
+}
+.nom,
+.profil {
+  color: aliceblue;
+  font-family: "Ubuntu", sans-serif;
+ 
+}
+.nom {
+  margin-top: 2.5em;
+  font-size: 3vw;
+}
+.profil {
+  font-size: 2vw;
+  margin-top: 1em;
+  
+}
+.jumbotron {
+  
+  max-height: 200vh;
+  width: auto;
+  background-image: url(../image/akamegakill01.gif);
+  border-radius: 40% 40% 0% 0%;
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar {
+  margin-top: 5vh;  
+  text-align: center;
+}
+.slide-bottom {
+  -webkit-animation: slide-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(300px);
+    transform: translateY(300px);
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+  100% {
+    -webkit-transform: translateY(10vh);
+    transform: translateY(10vh);
+  }
+}
+
+body{
+  background: url(../image/bghome.jpg) ;
+  background-size: round;
+}
+/*******************footer********************************* */
+
+#social {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  height: 4em;
+}
+
+.inch {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(245, 222, 179, 0.800);  
+  margin-bottom: 0px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  height:fit-content;
+  
+}
+#social{
+  height: 5vh;
+}

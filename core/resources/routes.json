@@ -1,0 +1,13 @@
+{
+  "home index": "home/index",
+  "home show": "home/show",
+  "user index": "users/index",
+  "user show": "users/show",
+  "postcard create": "postcard/create",
+  "postcard show": "postcard/show",
+  "contact index": "contact/index",
+  "contact show": "contact/show",
+  "projets index": "projets/index",
+  "projets show": "projets/show"
+ 
+}

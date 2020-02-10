@@ -1,0 +1,41 @@
+@media all and (max-width: 950px) and (min-width: 768px) {
+  .presentation {
+    height: 100vh;
+   
+  }
+  #profil, .divers{
+    flex-direction: column;
+    align-items: center;
+  }
+  .jumbotron {
+    height: auto;
+    width: auto;
+    background-image: url(../image/akamegakill01.gif);
+    border-radius: 40% 40% 0% 0%;
+    background-position: center;
+    background-size: cover;
+  }
+  .profil {
+    margin-bottom: 2px;
+  }
+}
+
+.navbar {
+  margin-top: 25vh;
+  text-align: center;
+}
+.nuage {
+  height: 50vh;
+}
+.profil {
+  color: aliceblue;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 4vw;
+ 
+}
+.nom {
+  margin-top: 1.5em;
+  margin-bottom: -0.5em;
+  font-size: 6vw;
+}
+

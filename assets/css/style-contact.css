@@ -1,0 +1,14 @@
+.nuage {
+  
+  background-image: url(../image/light.jpg);
+  background-size: cover;
+  border-radius: 0% 0% 20% 20%;
+  max-height: 100vh;
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+

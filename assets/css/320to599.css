@@ -1,0 +1,267 @@
+
+  @media all and (max-width: 640px) and (min-width: 300px) {
+    .presentation {
+      height: 130vh;
+    }
+    .jumbotron {
+      height: auto;
+      width: auto;
+      background-image: url(../image/akamegakill01.gif);
+      border-radius: 40% 40% 0% 0%;
+      background-position: center;
+      background-size: cover;
+    }
+    .navbar {      
+      text-align: center;
+      border: solid red 2px;
+    }
+    .profil {
+      color: aliceblue;
+      font-family: "Ubuntu", sans-serif;
+      font-size: 4vw;
+     
+    }
+    .nom {
+      margin-top: 1em;
+      margin-bottom: -0.5em;
+      font-size: 6vw;
+    }
+    .profil {
+      margin-bottom: -150px;
+      color: whitesmoke;
+    }
+  
+
+  .nuage {
+      height: 50vh;
+  }
+  @-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+    100% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+  }
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(-100px);
+      transform: translateY(-100px);
+    }
+    100% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+  }
+  #profil, .divers{
+    flex-direction: column;
+    align-items: center;
+    
+   
+  }}
+ 
+@media only screen and (max-width: 640px) {
+  h1 {
+  font-size: 2em;
+  color: white;
+  }
+  h2{
+    font-size: 1em;
+    color: blanchedalmond;
+    text-shadow: 1px 1px 2px brown;
+  }
+  p{
+    color: blanchedalmond;
+    font-size: 0.8em;
+    font-weight: 800;
+    text-shadow: 1px 1px 2px brown;
+  }
+  }
+  @media only screen and (min-width: 640px) {
+    h1 {
+    font-size: 5em;
+    color: black;
+    }
+    h2{
+      font-size: 2em;
+      color: black;
+      text-shadow: 1px 1px 3px brown;
+    }
+    p{
+      color: black;
+      font-size: 1.2em;
+      font-weight: 800;
+      text-shadow: 1px 1px 2px brown;
+    }
+    }
+  
+
+    @media all and (max-width: 667px) and (min-width: 375px) {
+      .presentation {
+        height: 130vh;
+      }
+      .jumbotron {
+        height: auto;
+        width: auto;
+        background-image: url(../image/akamegakill01.gif);
+        border-radius: 40% 40% 0% 0%;
+        background-position: center;
+        background-size: cover;
+      }
+      .navbar {
+        margin-top: 11em;
+        text-align: center;
+      }}
+
+      @media all and (max-width: 823px) and (min-width: 411px) {
+          .presentation {
+            height: 130vh;
+          }
+          .jumbotron {
+            height: auto;
+            width: auto;
+            background-image: url(../image/akamegakill01.gif);
+            border-radius: 40% 40% 0% 0%;
+            background-position: center;
+            background-size: cover;
+          }
+          .navbar {
+            margin-top: 12em;
+            text-align: center;
+          }}
+
+      @media all and (max-width: 736px) and (min-width: 411px) {
+        .presentation {
+          height: 130vh;
+        }
+        .jumbotron {
+          height: auto;
+          width: auto;
+          background-image: url(../image/akamegakill01.gif);
+          border-radius: 40% 40% 0% 0%;
+          background-position: center;
+          background-size: cover;
+        }
+        .navbar {
+          margin-top: 11em;
+          text-align: center;
+        }}
+          @media all and (max-width: 640px) and (min-width: 320px) {
+        .presentation {
+          height: 130vh;
+        }
+        .jumbotron {
+          height: auto;
+          width: auto;
+          background-image: url(../image/akamegakill01.gif);
+          border-radius: 40% 40% 0% 0%;
+          background-position: center;
+          background-size: cover;
+        }
+        .navbar {
+          margin-top: 9em;
+          text-align: center;
+        }
+        @-webkit-keyframes slide-bottom {
+          0% {
+            -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+          }
+          100% {
+            -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+          }
+        }
+        @keyframes slide-bottom {
+          0% {
+            -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+          }
+          100% {
+            -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+          }
+        }
+      }
+       
+        
+        @media all and (max-width: 812px) and (min-width: 375px) {
+          .presentation {
+            height: 90vh;
+          }
+          .jumbotron {
+            height: 30vh;
+            width: auto;
+            background-image: url(../image/akamegakill01.gif);
+            border-radius: 40% 40% 0% 0%;
+            background-position: center;
+            background-size: cover;
+          }
+          .navbar {
+            margin-top: 11em;
+            text-align: center;
+          }
+          @-webkit-keyframes slide-bottom {
+            0% {
+              -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+            }
+            100% {
+              -webkit-transform: translateY(50px);
+              transform: translateY(50px);
+            }
+          }
+          @keyframes slide-bottom {
+            0% {
+              -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+            }
+            100% {
+              -webkit-transform: translateY(50px);
+              transform: translateY(50px);
+            }
+          }
+        }
+        
+
+        
+        @media all and (max-width: 630px) and (min-width: 250px) {
+          .presentation {
+            height: 150vh;
+          }
+          .jumbotron {
+            height: auto;
+            width: auto;
+            background-image: url(../image/akamegakill01.gif);
+            border-radius: 40% 40% 0% 0%;
+            background-position: center;
+            background-size: cover;
+            padding-bottom: 2em;
+          }
+          .navbar {
+            margin-top: 14em;
+            text-align: center;
+          }
+          @-webkit-keyframes slide-bottom {
+            0% {
+              -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+            }
+            100% {
+              -webkit-transform: translateY(25x);
+              transform: translateY(25px);
+            }
+          }
+          @keyframes slide-bottom {
+            0% {
+              -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+            }
+            100% {
+              -webkit-transform: translateY(10px);
+              transform: translateY(10px);
+            }
+          }
+        }
